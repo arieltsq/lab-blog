@@ -1,0 +1,20 @@
+{
+  "name": "lab-blog",
+  "version": "1.0.0",
+  "description": "lab blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "source .env;nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ARIEL",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.2"
+  }
+}
